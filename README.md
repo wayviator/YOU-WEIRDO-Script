@@ -1,6 +1,4 @@
-this is a script for Roblox
-some stupid thing i made in Studio for fun
-needless to say - dont put this in your game pls
+something i made in Roblox Studio for fun
 
 now heres what the script does:
 - lowers the pitch in every single sound effect in the game
@@ -14,4 +12,4 @@ now heres what the script does:
 - every decal and texture in the workspace is changed to an image picked from the aformentioned list of IDs
 - gradually multiplies the size of every BasePart
 
-and maybe more
+and then some
