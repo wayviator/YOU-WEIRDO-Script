@@ -13,3 +13,5 @@ now heres what the script does:
 - gradually multiplies the size of every BasePart
 
 and then some
+this is my first repository - i just made this so i could execute it with the loadstring and GetAsync functions
+so now you know why there is random shit in the commit history
