@@ -65,11 +65,10 @@ local function crumble()
 	local pushMaxForce = 500
 	
 	local possibleFloorNames = {
-		[1] = "Floor",
-		[2] = "Ground",
-		[3] = "Baseplate",
-		[4] = "Base",
-		[5] = "Plate",
+		[1] = "Ground",
+		[2] = "Baseplate",
+		[3] = "Base",
+		[4] = "Plate",
 	}
 	
 	local function isDestroyable(v)
