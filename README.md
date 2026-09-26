@@ -1,4 +1,8 @@
-what the script does:
+this is a script for Roblox
+some stupid thing i made in Studio for fun
+needless to say - dont put this in your game pls
+
+now heres what the script does:
 - lowers the pitch in every single sound effect in the game
 - makes every BasePart change random colors, slowly getting darker until it is pitch black
 - gradually changes the clocktime to night time
