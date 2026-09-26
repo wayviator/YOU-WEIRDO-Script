@@ -34,12 +34,6 @@ local function distortMusic()
 					pitch.Octave = 0.65
 					pitch.Name = "youweirdsoundyfx"
 					pitch.Parent = desc
-					
-					--task.spawn(function()
-					--	while task.wait(0.1) do
-					--		pitch.Octave -= 0.005
-					--	end
-					--end)
 				end
 			end
 		end
@@ -104,9 +98,7 @@ local function crumble()
 				totalConstant += 1
 			end
    	 	end
-	end																					
-
-	print("Total: "..#total)
+	end									
 	
 	task.spawn(function()
 		while true do
@@ -215,8 +207,6 @@ local function createGui()
 		if plrGui then
 			copy.Parent = plrGui
 			
-			--debris:AddItem(copy, 3)
-			
 			local frameSizeTween = tweenService:Create(copy.Frame, framePopUpTweenInfo, {Size = frameEndSize})
 			local frameRotTween = tweenService:Create(copy.Frame, framePopUpTweenInfo, {Rotation = 0})
 
@@ -225,8 +215,6 @@ local function createGui()
 			
 			task.spawn(function()
 				frameSizeTween.Completed:Wait()
-				print("Tween completed!")
-				
 				local framePosition = copy.Frame.Position
 				
 				while copy and copy:FindFirstChild("Frame") do
